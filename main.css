@@ -1,9 +1,31 @@
-.titles {
+h3 {
 
 	padding :20px;
-	color : blueviolet;
+	color : turquoise;
+	
 }
 
 body{
-	background-color: brown;
+	background-color: darkslategrey;
+	color : ghostwhite;
+	padding: 10px;
+}
+
+.highlight {
+	color: yellow;
+	font-family: ;
+}
+
+.images{
+	height: auto;
+	width: 200px;
+	
+}
+table{
+	width : 100%;
+	text-align: left;
+}
+th{
+	color: yellow;
+	padding: 20px 0px;
 }
