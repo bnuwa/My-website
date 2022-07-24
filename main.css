@@ -2,6 +2,8 @@ h3 {
 
 	padding :20px;
 	color : turquoise;
+	font-weight: 700px;
+	font-size: large;
 	
 }
 
@@ -21,11 +23,32 @@ body{
 	width: 200px;
 	
 }
-table{
+table {
 	width : 100%;
 	text-align: left;
 }
+th,tr,td { padding: 10px 0px;}
 th{
 	color: yellow;
 	padding: 20px 0px;
+	background-color: darkgreen;
+}
+
+a{
+	color: ghostwhite ;
+	text-decoration: none;
+}
+a:hover {
+	color: yellow;
+	text-decoration: underline;
+
+}
+
+p.intro::first-letter{
+	font-size: 25px;
+}
+
+ol { transform: rotate(180deg); }
+ol > li {
+	transform: rotate(-180deg);
 }
