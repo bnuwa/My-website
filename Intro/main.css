@@ -1,17 +1,24 @@
 h3 {
 
-	padding :20px;
 	color : turquoise;
-	font-weight: 700px;
-	font-size: large;
+
 	
 }
 
 body{
 	background-color: darkslategrey;
 	color : ghostwhite;
-	padding: 10px;
+	padding: 0px 50px;
 }
+/*@media screen and (max-width :1166px){
+	body{padding: 50px 0px;}
+}
+@media screen and (max-width :767px){
+	body{padding: 40px 0px;}
+}
+@media screen and (max-width :480px){
+	body{padding: 20px 0px;}
+}*/
 
 .highlight {
 	color: yellow;
@@ -24,14 +31,18 @@ body{
 	
 }
 table {
-	width : 100%;
+	width : 40%;
 	text-align: left;
+	border: 1px solid black;
+	border-color: ghostwhite;
 }
-th,tr,td { padding: 10px 0px;}
+td{ padding: 10px;}
+
 th{
 	color: yellow;
-	padding: 20px 0px;
+	padding: 20px ;
 	background-color: darkgreen;
+	padding-left: 10px ;
 }
 
 a{
@@ -48,7 +59,10 @@ p.intro::first-letter{
 	font-size: 25px;
 }
 
-ol { transform: rotate(180deg); }
-ol > li {
+ul { transform: rotate(180deg); }
+ul > li {
 	transform: rotate(-180deg);
+}
+.decremete{
+	margin: 20px;
 }
